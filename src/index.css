@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Epilogue', sans-serif;
+}
+
+button {
+    padding: 1.5rem 4rem;
+    background-color: #2D2D2D;
+    color: white;
+    font-family: Epilogue;
+    font-size: 1.25rem;
+    border: none;
+}
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15rem;
+}
+
+.barskills {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: center;
+    gap: 10rem;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.barskills section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+}

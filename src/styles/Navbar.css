@@ -1,0 +1,14 @@
+.principal {
+    display: flex;
+    padding: 1.5rem 2.6rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 1.5rem;
+}

@@ -1,0 +1,33 @@
+.advert {
+    display: flex;
+    padding: 2.625rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 2.625rem 4.25rem;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.reproducir {
+    display: flex;
+    min-width: 20rem;
+    max-width: 38.75rem;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1.5rem;
+    gap: 3rem;
+    flex: 1 0 0;
+}
+
+.reproducir h3 {
+    font-weight: 600;
+}
+
+.reproducir h1 {
+    font-size: 4.25rem;
+}
+
+.reproducir p {
+    font-weight: 400;
+}
