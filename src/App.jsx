@@ -1,4 +1,5 @@
 import { BarLogo } from "./components/BarLogo"
+import { Footer } from "./components/Footer"
 import { Header } from "./components/Header"
 import { Navbar } from "./components/Navbar"
 import { Skills } from "./components/Skills"
@@ -14,6 +15,7 @@ function App() {
       <Skills />
       <Work />
       <Tester />
+      <Footer />
     </>
   )
 }
