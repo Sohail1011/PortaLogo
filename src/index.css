@@ -47,9 +47,9 @@ button {
 
 .footpage {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 2.625rem 1.5rem 5.375rem 1.5rem;
-    gap: 1.5rem;
+    gap: 8.88rem;
 }
 
 .footpage h2 {
@@ -59,4 +59,42 @@ button {
 .info-footer p {
     font-weight: 400;
     line-height: 1.60rem;
+}
+
+.info-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.text-description {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.auto-complete form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 20rem;
+    max-width: 32.5rem;
+    gap: 1.5rem;
+    flex: 1 0 0;
+}
+
+.auto-complete input {
+    display: flex;
+    min-width: 20rem;
+    max-width: 32.5rem;
+    padding: 1rem 1.5rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    align-self: stretch;
+    background-color: #F3F3F3;
+    color: #2D2D2D;
+    font-weight: 400;
+    font-size: 1.06rem;
+    border: none;
+    font-family: Epilogue;
 }
