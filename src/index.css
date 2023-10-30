@@ -49,7 +49,9 @@ button {
     display: flex;
     flex-direction: row;
     padding: 2.625rem 1.5rem 5.375rem 1.5rem;
-    gap: 8.88rem;
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .footpage h2 {
